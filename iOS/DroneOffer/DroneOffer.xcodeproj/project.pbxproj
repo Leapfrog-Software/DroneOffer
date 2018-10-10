@@ -41,6 +41,7 @@
 		BBEA6D8F216E23B400638EC3 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D8E216E23B400638EC3 /* Message.storyboard */; };
 		BBEA6D91216E23BB00638EC3 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D90216E23BB00638EC3 /* MyPage.storyboard */; };
 		BBEA6D93216E25E700638EC3 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D92216E25E700638EC3 /* UserListTableViewCell.swift */; };
+		BBFDF65A216E4A1900326C7A /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFDF659216E4A1900326C7A /* UserDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		BBEA6D8E216E23B400638EC3 /* Message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 		BBEA6D90216E23BB00638EC3 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
 		BBEA6D92216E25E700638EC3 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		BBFDF659216E4A1900326C7A /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 			children = (
 				BBEA6D86216E238900638EC3 /* UserListViewController.swift */,
 				BBEA6D92216E25E700638EC3 /* UserListTableViewCell.swift */,
+				BBFDF659216E4A1900326C7A /* UserDetailViewController.swift */,
 			);
 			path = Offer;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			files = (
 				BBEA6D93216E25E700638EC3 /* UserListTableViewCell.swift in Sources */,
 				BBEA6D53216E175400638EC3 /* DateFormatter+Init.swift in Sources */,
+				BBFDF65A216E4A1900326C7A /* UserDetailViewController.swift in Sources */,
 				BBEA6D87216E238900638EC3 /* UserListViewController.swift in Sources */,
 				BB18D3932163A440004A6BD8 /* AppDelegate.swift in Sources */,
 				BBEA6D69216E179300638EC3 /* UserData.swift in Sources */,
