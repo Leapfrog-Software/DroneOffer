@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Dialog" customModule="DroneOffer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IYd-Tq-57d">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adM-hc-evm">
+                    <rect key="frame" x="32" y="175.5" width="311" height="317.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dialog_success" translatesAutoresizingMaskIntoConstraints="NO" id="8AY-D2-d4B">
+                            <rect key="frame" x="116" y="32" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="NMx-XF-9SH"/>
+                                <constraint firstAttribute="height" constant="80" id="iZf-zz-LZM"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="タイトル" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McH-5r-x3Q">
+                            <rect key="frame" x="32" y="144" width="247" height="26.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="メッセージ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWB-mV-3C5">
+                            <rect key="frame" x="32" y="186.5" width="247" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zsW-he-YId">
+                            <rect key="frame" x="75.5" y="235.5" width="160" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="160" id="S4a-rW-QlZ"/>
+                                <constraint firstAttribute="height" constant="50" placeholder="YES" id="cwK-it-ZZv"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="zsW-he-YId" firstAttribute="centerX" secondItem="adM-hc-evm" secondAttribute="centerX" id="0N3-Hh-IkV"/>
+                        <constraint firstItem="McH-5r-x3Q" firstAttribute="leading" secondItem="adM-hc-evm" secondAttribute="leading" constant="32" id="1ZD-rd-uvs"/>
+                        <constraint firstAttribute="bottom" secondItem="zsW-he-YId" secondAttribute="bottom" constant="32" id="5gh-Ic-KQZ"/>
+                        <constraint firstAttribute="trailing" secondItem="YWB-mV-3C5" secondAttribute="trailing" constant="32" id="79x-w7-d2K"/>
+                        <constraint firstItem="McH-5r-x3Q" firstAttribute="top" secondItem="8AY-D2-d4B" secondAttribute="bottom" constant="32" id="OOc-xU-FPv"/>
+                        <constraint firstItem="zsW-he-YId" firstAttribute="top" secondItem="YWB-mV-3C5" secondAttribute="bottom" constant="32" id="f9C-LY-wLF"/>
+                        <constraint firstItem="8AY-D2-d4B" firstAttribute="top" secondItem="adM-hc-evm" secondAttribute="top" constant="32" id="h67-r8-pVZ"/>
+                        <constraint firstAttribute="trailing" secondItem="McH-5r-x3Q" secondAttribute="trailing" constant="32" id="ra2-HJ-VQa"/>
+                        <constraint firstItem="YWB-mV-3C5" firstAttribute="top" secondItem="McH-5r-x3Q" secondAttribute="bottom" constant="16" id="uhZ-p4-DbA"/>
+                        <constraint firstItem="8AY-D2-d4B" firstAttribute="centerX" secondItem="adM-hc-evm" secondAttribute="centerX" id="vxW-0h-RQI"/>
+                        <constraint firstItem="YWB-mV-3C5" firstAttribute="leading" secondItem="adM-hc-evm" secondAttribute="leading" constant="32" id="wX1-GZ-yeI"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="adM-hc-evm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="30g-cZ-L2i"/>
+                <constraint firstAttribute="bottom" secondItem="IYd-Tq-57d" secondAttribute="bottom" id="7Yf-7g-647"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IYd-Tq-57d" secondAttribute="trailing" id="Jqx-pz-Dmn"/>
+                <constraint firstItem="adM-hc-evm" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QBJ-f2-2X9"/>
+                <constraint firstItem="IYd-Tq-57d" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gkF-xu-h0r"/>
+                <constraint firstItem="IYd-Tq-57d" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gsN-KT-IXV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="adM-hc-evm" secondAttribute="trailing" constant="32" id="hMc-Up-8GN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="buttonsStackView" destination="zsW-he-YId" id="fxJ-tv-lS4"/>
+                <outlet property="iconImageView" destination="8AY-D2-d4B" id="TC0-ah-X30"/>
+                <outlet property="messageLabel" destination="YWB-mV-3C5" id="4il-zn-YnZ"/>
+                <outlet property="titleLabel" destination="McH-5r-x3Q" id="aYK-iS-s1d"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dialog_success" width="80" height="80"/>
+    </resources>
+</document>

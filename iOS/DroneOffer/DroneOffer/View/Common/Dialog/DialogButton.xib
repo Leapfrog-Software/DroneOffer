@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DialogButton" customModule="DroneOffer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYe-Zh-iLq">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                    <color key="backgroundColor" red="0.90196078431372551" green="0.28627450980392155" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="onTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="miK-qq-qMi"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAE-3u-3gR">
+                    <rect key="frame" x="12" y="12" width="276" height="26"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aAE-3u-3gR" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="12" id="2Zc-oi-1L0"/>
+                <constraint firstItem="GYe-Zh-iLq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="CU9-vv-WTw"/>
+                <constraint firstItem="GYe-Zh-iLq" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="PzX-s5-VNT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GYe-Zh-iLq" secondAttribute="trailing" id="cDE-4l-VEX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="aAE-3u-3gR" secondAttribute="bottom" constant="12" id="d8h-7s-xeR"/>
+                <constraint firstItem="GYe-Zh-iLq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ptW-A7-a8F"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aAE-3u-3gR" secondAttribute="trailing" constant="12" id="rbA-vq-civ"/>
+                <constraint firstItem="aAE-3u-3gR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="wfP-WI-XjJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="button" destination="GYe-Zh-iLq" id="34o-bh-nIW"/>
+                <outlet property="titleLabel" destination="aAE-3u-3gR" id="gaO-xG-pJx"/>
+            </connections>
+        </view>
+    </objects>
+</document>

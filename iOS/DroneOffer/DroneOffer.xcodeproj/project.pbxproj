@@ -27,6 +27,13 @@
 		BBEA6D6D216E17AD00638EC3 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D6B216E17AD00638EC3 /* SplashViewController.swift */; };
 		BBEA6D6E216E17AD00638EC3 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D6C216E17AD00638EC3 /* TabbarViewController.swift */; };
 		BBEA6D71216E17D300638EC3 /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D70216E17D300638EC3 /* Initial.storyboard */; };
+		BBEA6D75216E191200638EC3 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D74216E191200638EC3 /* Dialog.swift */; };
+		BBEA6D77216E191900638EC3 /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D76216E191900638EC3 /* Dialog.xib */; };
+		BBEA6D79216E192B00638EC3 /* DialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D78216E192B00638EC3 /* DialogButton.swift */; };
+		BBEA6D7B216E193100638EC3 /* DialogButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D7A216E193100638EC3 /* DialogButton.xib */; };
+		BBEA6D7D216E1B3800638EC3 /* UIColor+Original.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D7C216E1B3800638EC3 /* UIColor+Original.swift */; };
+		BBEA6D80216E1CAB00638EC3 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D7F216E1CAB00638EC3 /* Loading.swift */; };
+		BBEA6D82216E1CBC00638EC3 /* Loading.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D81216E1CBC00638EC3 /* Loading.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +59,13 @@
 		BBEA6D6B216E17AD00638EC3 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		BBEA6D6C216E17AD00638EC3 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		BBEA6D70216E17D300638EC3 /* Initial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Initial.storyboard; sourceTree = "<group>"; };
+		BBEA6D74216E191200638EC3 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		BBEA6D76216E191900638EC3 /* Dialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
+		BBEA6D78216E192B00638EC3 /* DialogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogButton.swift; sourceTree = "<group>"; };
+		BBEA6D7A216E193100638EC3 /* DialogButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogButton.xib; sourceTree = "<group>"; };
+		BBEA6D7C216E1B3800638EC3 /* UIColor+Original.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Original.swift"; sourceTree = "<group>"; };
+		BBEA6D7F216E1CAB00638EC3 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		BBEA6D81216E1CBC00638EC3 /* Loading.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Loading.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				BBEA6D49216E171F00638EC3 /* Initial */,
+				BBEA6D72216E18EA00638EC3 /* Common */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,6 +158,7 @@
 				BBEA6D4D216E175300638EC3 /* CALayer+Border.swift */,
 				BBEA6D4F216E175300638EC3 /* DateFormatter+Init.swift */,
 				BBEA6D4E216E175300638EC3 /* String+Base64.swift */,
+				BBEA6D7C216E1B3800638EC3 /* UIColor+Original.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -171,6 +187,35 @@
 				BBEA6D70216E17D300638EC3 /* Initial.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BBEA6D72216E18EA00638EC3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BBEA6D73216E18FF00638EC3 /* Dialog */,
+				BBEA6D7E216E1C9000638EC3 /* Loading */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BBEA6D73216E18FF00638EC3 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				BBEA6D74216E191200638EC3 /* Dialog.swift */,
+				BBEA6D76216E191900638EC3 /* Dialog.xib */,
+				BBEA6D78216E192B00638EC3 /* DialogButton.swift */,
+				BBEA6D7A216E193100638EC3 /* DialogButton.xib */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		BBEA6D7E216E1C9000638EC3 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				BBEA6D7F216E1CAB00638EC3 /* Loading.swift */,
+				BBEA6D81216E1CBC00638EC3 /* Loading.xib */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +276,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEA6D7B216E193100638EC3 /* DialogButton.xib in Resources */,
 				BBEA6D71216E17D300638EC3 /* Initial.storyboard in Resources */,
+				BBEA6D82216E1CBC00638EC3 /* Loading.xib in Resources */,
 				BB18D39D2163A444004A6BD8 /* LaunchScreen.storyboard in Resources */,
 				BB18D39A2163A444004A6BD8 /* Assets.xcassets in Resources */,
+				BBEA6D77216E191900638EC3 /* Dialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +295,8 @@
 				BBEA6D53216E175400638EC3 /* DateFormatter+Init.swift in Sources */,
 				BB18D3932163A440004A6BD8 /* AppDelegate.swift in Sources */,
 				BBEA6D69216E179300638EC3 /* UserData.swift in Sources */,
+				BBEA6D75216E191200638EC3 /* Dialog.swift in Sources */,
+				BBEA6D80216E1CAB00638EC3 /* Loading.swift in Sources */,
 				BBEA6D58216E176500638EC3 /* SaveData.swift in Sources */,
 				BBEA6D5E216E177400638EC3 /* HttpManager.swift in Sources */,
 				BBEA6D65216E178F00638EC3 /* FetchOfferRequester.swift in Sources */,
@@ -257,7 +307,9 @@
 				BBEA6D5D216E177400638EC3 /* ImageStorage.swift in Sources */,
 				BBEA6D5F216E177400638EC3 /* FileUploader.swift in Sources */,
 				BBEA6D51216E175400638EC3 /* CALayer+Border.swift in Sources */,
+				BBEA6D7D216E1B3800638EC3 /* UIColor+Original.swift in Sources */,
 				BBEA6D6A216E179300638EC3 /* OfferData.swift in Sources */,
+				BBEA6D79216E192B00638EC3 /* DialogButton.swift in Sources */,
 				BBEA6D66216E178F00638EC3 /* FetchUserRequester.swift in Sources */,
 				BBEA6D57216E176500638EC3 /* Constants.swift in Sources */,
 				BBEA6D6D216E17AD00638EC3 /* SplashViewController.swift in Sources */,
