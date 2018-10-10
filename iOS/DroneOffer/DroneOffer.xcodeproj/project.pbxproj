@@ -34,6 +34,13 @@
 		BBEA6D7D216E1B3800638EC3 /* UIColor+Original.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D7C216E1B3800638EC3 /* UIColor+Original.swift */; };
 		BBEA6D80216E1CAB00638EC3 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D7F216E1CAB00638EC3 /* Loading.swift */; };
 		BBEA6D82216E1CBC00638EC3 /* Loading.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D81216E1CBC00638EC3 /* Loading.xib */; };
+		BBEA6D87216E238900638EC3 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D86216E238900638EC3 /* UserListViewController.swift */; };
+		BBEA6D89216E239900638EC3 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D88216E239900638EC3 /* MessageViewController.swift */; };
+		BBEA6D8B216E23A200638EC3 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D8A216E23A200638EC3 /* MyPageViewController.swift */; };
+		BBEA6D8D216E23AD00638EC3 /* Offer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D8C216E23AD00638EC3 /* Offer.storyboard */; };
+		BBEA6D8F216E23B400638EC3 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D8E216E23B400638EC3 /* Message.storyboard */; };
+		BBEA6D91216E23BB00638EC3 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEA6D90216E23BB00638EC3 /* MyPage.storyboard */; };
+		BBEA6D93216E25E700638EC3 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEA6D92216E25E700638EC3 /* UserListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +73,13 @@
 		BBEA6D7C216E1B3800638EC3 /* UIColor+Original.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Original.swift"; sourceTree = "<group>"; };
 		BBEA6D7F216E1CAB00638EC3 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		BBEA6D81216E1CBC00638EC3 /* Loading.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Loading.xib; sourceTree = "<group>"; };
+		BBEA6D86216E238900638EC3 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		BBEA6D88216E239900638EC3 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		BBEA6D8A216E23A200638EC3 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		BBEA6D8C216E23AD00638EC3 /* Offer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Offer.storyboard; sourceTree = "<group>"; };
+		BBEA6D8E216E23B400638EC3 /* Message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		BBEA6D90216E23BB00638EC3 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
+		BBEA6D92216E25E700638EC3 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				BBEA6D49216E171F00638EC3 /* Initial */,
+				BBEA6D83216E236400638EC3 /* Offer */,
+				BBEA6D84216E236B00638EC3 /* Message */,
+				BBEA6D85216E236F00638EC3 /* MyPage */,
 				BBEA6D72216E18EA00638EC3 /* Common */,
 			);
 			path = View;
@@ -185,6 +202,9 @@
 			isa = PBXGroup;
 			children = (
 				BBEA6D70216E17D300638EC3 /* Initial.storyboard */,
+				BBEA6D8C216E23AD00638EC3 /* Offer.storyboard */,
+				BBEA6D8E216E23B400638EC3 /* Message.storyboard */,
+				BBEA6D90216E23BB00638EC3 /* MyPage.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -216,6 +236,31 @@
 				BBEA6D81216E1CBC00638EC3 /* Loading.xib */,
 			);
 			path = Loading;
+			sourceTree = "<group>";
+		};
+		BBEA6D83216E236400638EC3 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				BBEA6D86216E238900638EC3 /* UserListViewController.swift */,
+				BBEA6D92216E25E700638EC3 /* UserListTableViewCell.swift */,
+			);
+			path = Offer;
+			sourceTree = "<group>";
+		};
+		BBEA6D84216E236B00638EC3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BBEA6D88216E239900638EC3 /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BBEA6D85216E236F00638EC3 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				BBEA6D8A216E23A200638EC3 /* MyPageViewController.swift */,
+			);
+			path = MyPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +325,10 @@
 				BBEA6D71216E17D300638EC3 /* Initial.storyboard in Resources */,
 				BBEA6D82216E1CBC00638EC3 /* Loading.xib in Resources */,
 				BB18D39D2163A444004A6BD8 /* LaunchScreen.storyboard in Resources */,
+				BBEA6D91216E23BB00638EC3 /* MyPage.storyboard in Resources */,
 				BB18D39A2163A444004A6BD8 /* Assets.xcassets in Resources */,
+				BBEA6D8D216E23AD00638EC3 /* Offer.storyboard in Resources */,
+				BBEA6D8F216E23B400638EC3 /* Message.storyboard in Resources */,
 				BBEA6D77216E191900638EC3 /* Dialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,12 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEA6D93216E25E700638EC3 /* UserListTableViewCell.swift in Sources */,
 				BBEA6D53216E175400638EC3 /* DateFormatter+Init.swift in Sources */,
+				BBEA6D87216E238900638EC3 /* UserListViewController.swift in Sources */,
 				BB18D3932163A440004A6BD8 /* AppDelegate.swift in Sources */,
 				BBEA6D69216E179300638EC3 /* UserData.swift in Sources */,
 				BBEA6D75216E191200638EC3 /* Dialog.swift in Sources */,
 				BBEA6D80216E1CAB00638EC3 /* Loading.swift in Sources */,
 				BBEA6D58216E176500638EC3 /* SaveData.swift in Sources */,
+				BBEA6D8B216E23A200638EC3 /* MyPageViewController.swift in Sources */,
 				BBEA6D5E216E177400638EC3 /* HttpManager.swift in Sources */,
 				BBEA6D65216E178F00638EC3 /* FetchOfferRequester.swift in Sources */,
 				BBEA6D52216E175400638EC3 /* String+Base64.swift in Sources */,
@@ -307,6 +358,7 @@
 				BBEA6D5D216E177400638EC3 /* ImageStorage.swift in Sources */,
 				BBEA6D5F216E177400638EC3 /* FileUploader.swift in Sources */,
 				BBEA6D51216E175400638EC3 /* CALayer+Border.swift in Sources */,
+				BBEA6D89216E239900638EC3 /* MessageViewController.swift in Sources */,
 				BBEA6D7D216E1B3800638EC3 /* UIColor+Original.swift in Sources */,
 				BBEA6D6A216E179300638EC3 /* OfferData.swift in Sources */,
 				BBEA6D79216E192B00638EC3 /* DialogButton.swift in Sources */,
